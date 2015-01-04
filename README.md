@@ -15,3 +15,4 @@ https://github.com/tpope/vim-fireplace.git
 https://github.com/tpope/vim-leiningen.git
 https://github.com/tpope/vim-projectionist.git
 https://github.com/szw/vim-tags.git
+https://github.com/kien/ctrlp.vim.git
