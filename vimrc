@@ -10,6 +10,10 @@ autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 nnoremap <leader>. :CtrlPTag<cr>
 
+"F3 for NERTree
+set <F3>=<C-v><F2>
+nnoremap <F3> :NERDTreeToggle<CR>
+
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare

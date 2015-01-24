@@ -18,3 +18,4 @@ In my bundles I currently have
  * https://github.com/szw/vim-tags.git
  * https://github.com/kien/ctrlp.vim.git
  * https://github.com/craigemery/vim-autotag.git
+ * https://github.com/scrooloose/nerdtree.git
