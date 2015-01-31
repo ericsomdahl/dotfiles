@@ -2,13 +2,15 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-"toggle autoindent for pasting
+"F2 toggle autoindent for pasting
 set pastetoggle=<F2>
 
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <C-w>. :3winc ><cr>
+nnoremap <C-w>, :3winc <<cr>
 
 "F3 for NERTree
 set <F3>=<C-v><F2>
