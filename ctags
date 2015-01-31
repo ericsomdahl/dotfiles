@@ -4,7 +4,7 @@
 --exclude=node_modules
 
 --langdef=Clojure
---langmap=Clojure:.clj
+--langmap=Clojure:.clj.cljs
 --regex-clojure=/\([ \t]*create-ns[ \t]+([-[:alnum:]*+!_:\/.?]+)/\1/n,namespace/
 --regex-clojure=/\([ \t]*def[ \t]+([-[:alnum:]*+!_:\/.?]+)/\1/d,definition/
 --regex-clojure=/\([ \t]*html\/deftemplate[ \t]+([-[:alnum:]*+!_:\/.?]+)/\1/d,definition/
