@@ -12,9 +12,9 @@ nnoremap <leader>. :CtrlPTag<cr>
 nnoremap <C-w>. :3winc ><cr>
 nnoremap <C-w>, :3winc <<cr>
 
-"F3 for NERTree
+"F3 for Fireplace REPL Eval
 set <F3>=<C-v><F2>
-nnoremap <F3> :NERDTreeToggle<CR>
+nnoremap <F3> :Eval<CR>
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
