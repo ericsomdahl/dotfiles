@@ -8,13 +8,21 @@ set pastetoggle=<F2>
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
-nnoremap <leader>. :CtrlPTag<cr>
-nnoremap <C-w>. :3winc ><cr>
-nnoremap <C-w>, :3winc <<cr>
+nnoremap <leader>p :CtrlPTag<cr>
+" resize horzontal split window
+nmap <C-Up> <C-W>-<C-W>-
+nmap <C-Down> <C-W>+<C-W>+
+" resize vertical split window
+nmap <C-Left> <C-W>><C-W>>
+nmap <C-Right> <C-W><<C-W><
+
 
 "F3 for Fireplace REPL Eval
 set <F3>=<C-v><F2>
 nnoremap <F3> :Eval<CR>
+
+"Paredit settings
+let g:paredit_leader = ']'
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
