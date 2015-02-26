@@ -2,6 +2,9 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+"Force any .md file to be interpreted as Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 "F2 toggle autoindent for pasting
 set pastetoggle=<F2>
 
